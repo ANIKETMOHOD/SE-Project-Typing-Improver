@@ -1,0 +1,81 @@
+:root {
+  /* --bg-color: #0e0e11; */
+  --bg-color: #2d323b;
+  /* --card-color: #18181b; */
+  --card-color: #20232b;
+  --subtitle-color: rgb(202, 202, 202);
+  --text-color: rgb(238, 238, 238);
+  --button-text-color: #202020;
+}
+
+.App {
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  color: var(--text-color);
+  background-color: var(--bg-color);
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.main__button {
+  padding: 10px 20px;
+  outline: none;
+  border: none;
+  background-color: var(--text-color);
+  color: var(--button-text-color);
+  text-decoration: none;
+  border-radius: 5px;
+  display: inline-flex;
+  font-size: 16px;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.main__input {
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid var(--text-color);
+  color: var(--text-color);
+  padding: 10px 5px 5px;
+}
+
+.main__input:focus {
+  border-bottom: 1px solid var(--text-color);
+  /* border: none; */
+  outline: none;
+}

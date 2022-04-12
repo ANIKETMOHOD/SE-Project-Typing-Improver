@@ -1,0 +1,12 @@
+export { default as DashBoard } from "./Dashboard";
+export { default as TypingTest } from "./TypingTest";
+export { default as Login } from "./Login";
+export { default as Stats } from "./Stats";
+export { default as Multiplayer } from "./Multiplayer";
+export { default as MultiplayerTyping } from "./MultiplayerTyping";
+export { default as AdminLogin } from "./AdminLogin";
+export { default as AdminDashboard } from "./AdminDashboard";
+export { default as AddSnippet } from "./AddSnippet";
+export { default as AppBar } from "./AppBar";
+export { default as Register } from "./Register";
+export { default as Guest } from "./Guest";
